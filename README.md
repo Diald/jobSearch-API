@@ -15,4 +15,9 @@
     <li><h2>DELETE /jobs/:id</h2><p>Deletes a specific job from the database.</p></li>
     <li><h2>DELETE /jobs/all</h2><p>Deletes all jobs from the database. Use with caution!</p></li>
 </ul>
-
+<h2>Authentication</h2>
+            <p>Some endpoints may require authentication. Please ensure to include an appropriate authorization header where necessary.</p>
+<h2>Rate Limiting</h2>
+            <p>To ensure fair usage, rate limiting is applied to the API. Please be mindful of the number of requests made.</p>
+<h2>Error Handling</h2>
+            <p>The API uses standard HTTP response codes to indicate the success or failure of requests. In case of errors, a descriptive message will be returned.</p>
