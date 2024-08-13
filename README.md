@@ -3,9 +3,6 @@
 
 <h2>Endpoints</h2>
 <ul>
-    <li><b>GET /random</b>
-        <p>Fetches a random joke.</p>
-    </li>
     <li><h2>GET /jobs/:id</h2><p>Retrieves a specific job by its ID.</p></li>
     <li><h2>GET /jobs/filter?topic=type</h2><p>Filters jobs by a specified topic.</p></li>
     <li><h2>POST /jobs</h2><p>Adds a new job to the database.</p></li>
