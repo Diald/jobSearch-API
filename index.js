@@ -10,7 +10,6 @@ const __dirname = dirname(__filename);
 const url = "mongodb://localhost:27017/Job_Search_API"; // Corrected to use 'mongodb://'
 const app = express();
 const port = 3000;
-const masterKey = "4VGP2DN-6EWM4SJ-N6FGRHV-Z3PR3TT";
 
 //creating a ejs as view engine
 app.set("view engine", "ejs");
